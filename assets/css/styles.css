@@ -1,0 +1,545 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Smart Agency Template v1.0.0 (https://themesbootstrap.com.mx/templates/smart-agenct-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/smart-agency/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@300&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+h1.oracion { color:#000000; font-family: 'Tangerine', cursive; font-size:140px }
+span.dorado { color:#FFCD00; font-family: 'Tangerine', cursive; font-size:140px }
+
+:root {
+    --dark-color: #1a1a1a;
+    --white-color: #ffffff;
+    --light-grey-color: #f5f5f5;
+    --gold-color: #ffb944;
+}
+
+.box-form {
+    width:all; 
+    margin: auto; 
+    margin-left: 400px; 
+    margin-right: 400px; 
+    position: relative;
+}
+
+.campo_form {
+
+    font-size: 20px;
+}
+
+.titleservice {
+    margin-top: 108px;
+}
+
+.eli {
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Qwigley', cursive;
+    line-height: 38px;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.serv{
+    color: #B1A000;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.service {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #BA0000;
+}
+
+.serviceh2 {
+    margin-top: 20px;
+}
+
+.servicios {
+    margin-top: 25px;
+
+}
+
+.servicedetails{
+
+    color: #000000;
+}
+
+.lobsterfont:'Lobster', cursive;
+
+.bgDark { background-color: var(--dark-color); }
+.bgLight { background-color: var(--white-color); }
+.bgLightGrey { background-color: var(--light-grey-color); }
+
+.colorDark { color: var(--dark-color) !important; }
+
+h1 { font-size: 130px; font-family: Tangerine; font-weight: 700; line-height: 80px; opacity: 0.9}
+h2 { font-size: 34px; margin-top: 0px;}
+h3 { font-size: 24px; margin-top: 40px; text-align: center; font-family: 'Fira Sans Condensed', sans-serif; color: #000000; margin-left: 10px; margin-right: 10px;}
+h4 { font-size: 20px };
+h5 { margin-bottom: 0px; }
+
+.box1 {
+    background-image: url(assets/images/portfolio-04.jpg);
+}
+
+.box2 {
+    background-image: url(assets/images/hero.jpg);
+}
+
+p {
+    font-size: 18px;
+    color: var(--dark-color);
+    opacity: .5;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+a:hover { text-decoration: none; }
+
+.input-pedido {
+    margin-top: 4px;
+    width: 45px; 
+    height: 24px;
+    line-height: 16px;
+    text-align: center;
+    float: right;
+}
+
+.botoncitos {
+
+    margin-left: 4px;
+    margin-right: -2px;
+    margin-top: 4px;
+    vertical-align: middle;
+    height: 24px;
+    line-height: 16px;
+    border: solid 1px;
+    border-radius: 2px;
+    color: #C8C8C8;
+    float: right;
+
+}
+
+.botoncitos:hover {
+    border: solid 1px;
+    border-radius: 2px;
+    color: #C8C8C8; 
+
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    border: 2px solid var(--dark-color);
+}
+
+.btn-secondary {
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    border: 2px solid var(--white-color);
+}
+
+.btn-alternate {
+    background-color: transparent;
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+}
+
+.btn-primary:hover { background-color: var(--dark-color); border: 2px solid var(--dark-color); }
+.btn-secondary:hover { background-color: var(--white-color); color: var(--dark-color); border: 2px solid var(--white-color); }
+.btn-secondary:focus { background-color: var(--white-color) !important; outline: none; border: 2px solid var(--white-color) !important; box-shadow: none; }
+
+.logo-brand {
+    max-width: 180px;
+    min-width: 160px;
+    height: 70px;
+}
+
+.divider { border-bottom: 2px solid var(--light-grey-color); }
+
+.content-center {
+    max-width: all;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+.caja-pedidos {
+
+    border: solid 1px;
+    border-radius: 2px;
+    color: #C8C8C8;
+}
+
+.caja-pedidos-in {
+
+    line-height: 36px;
+    margin: 5px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    border: 1px solid var(--dark-color);
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    height: 70px;
+}
+
+.nav-link { color: var(--dark-color); }
+.nav-link:hover { color: var(--dark-color); }
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+/* //////////////
+   Hero
+//////////////*/
+
+.colordorado {color: #FFCD00}
+
+.backnegro 
+    {
+        background-color: #000000;
+        opacity: 0.7;
+    }
+
+#hero {
+    /*background-image: url(../../assets/images/hero.jpg);*/
+    background-size: all;
+    padding-top: 75px;
+    padding-bottom;
+    min-height: 0px;
+    color: var(--white-color);
+    
+}
+
+#imagen body {
+    text-align: center;
+}
+#hero p {
+    color: var(--white-color);
+}
+
+/* //////////////
+   Portfolio
+//////////////*/
+
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+
+}
+
+.portfolio-details h2 {
+    margin-bottom: 0px;
+}
+
+.portfolio-details a h2 {
+
+  font-size: 1em;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+  -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+  -o-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+
+.portfolio.details a h2:hover {
+  font-size: 1.5em;
+}
+
+
+/* //////////////
+   Members
+//////////////*/
+
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details {
+    position: absolute;
+    color: var(--white-color);
+    bottom: 0;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details i {
+    padding: 0 5px;
+}
+
+/* //////////////
+   Pricing
+//////////////*/
+
+.pricing-container {
+    margin: 15px 0;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plan-light {
+    background-color: var(--white-color);
+    border: 2px solid var(--dark-color);
+}
+
+.plan-dark {
+    background-color: var(--dark-color);
+    border: 2px solid var(--dark-color);
+    color: var(--white-color);
+}
+
+.plans h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.plans h2 span {
+    font-size: 20px;
+}
+
+
+.plans ul {
+    list-style-type: square;
+}
+
+/* //////////////
+   Testimonial
+//////////////*/
+
+.carousel {
+    min-height: 240px;
+    padding: 0px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.precio {
+    font-size: 20px;
+}
+
+
+
+.carousel-item p {
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--dark-color);
+}
+
+.carousel-indicators li {
+    background-color: var(--dark-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev { 
+    color: var(--white-color);
+    opacity: 1;
+    width: 5%;
+}
+
+.control-button {
+    background-color: var(--dark-color);
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid var(--dark-color);
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.margen {
+
+    margin-top: 20px;
+
+}
+.box {
+
+    background: rgba(255, 197, 0, 0.7);
+    height: 80px;
+    width: auto;
+    border-radius: 10px;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.textbox {
+
+    background: green; 
+    opacity: 0.5;
+    height: 80px;
+    width: 800px;
+    position: absolute;
+}
+
+
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+
+.rating i {
+    color: var(--gold-color);
+    font-size: 26px;
+}
+
+
+.text-warning2 {
+    color: #000000;
+}
+/* //////////////
+   Footer
+//////////////*/
+
+.text-verdecito {
+  color: #5EDA11 !important;
+}
+
+footer {
+    padding: 80px 0;
+    text-align: center;
+    color: var(--white-color);
+}
+
+footer a {
+    color: var(--white-color);
+}
+
+footer a:hover {
+    color: var(--white-color);
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+/* //////////////
+   Media queries
+//////////////*/
+
+@media (max-width: 575.98px) { 
+    .box-form {
+    width:all; 
+    margin: auto; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    position: relative;
+}
+    h1.oracion { color:#000000; font-family: 'Tangerine', cursive; font-size:120px }
+    span.dorado { color:#FFCD00; font-family: 'Tangerine', cursive; font-size:120px }
+    h2 { font-size: 30px; }
+    h3 { font-size: 26px; margin-top: 40px; text-align: center; }
+    .portfolio-details h2 { font-size: 32px; }
+    .plans { min-width: unset; padding: 40px; }
+    .carousel-item p { font-size: 20px; }
+
+    .footer-menu { 
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .portfolio-details h2 { font-size: 30px; }
+    .plans { min-width: unset; padding: 40px 20px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 1200px) { }
